@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/landing-page.css" rel="stylesheet">
+
+  <link href="css/landing-page.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Navegação -->
+  <nav class="navbar navbar-expand-lg py-3 shadow-sm" style="background-color: #000000">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+
+
+        <!-- IMAGEM DA LOGO -->
+        <img src="https://pbs.twimg.com/profile_images/1190343164869201922/gt6PCgNh_400x400.jpg" width="45" alt="" class="d-inline-block align-middle mr-2">
+       
+        <!-- TEXTO DA LOGO  -->
+        <span class="text-uppercase font-weight-bold">ATIVA INVESTIMENTO</span>
+          </a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+  
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="#" class="nav-link">INICIO<span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">SERVIÇOS</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- CABEÇALHO -->
+  <header class="masthead text-dark text-center">
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Aplicação de Fundos de Investimentos</h1>
+        </div>
+        </div>
+      </div>
+  </header>
+
+  <p></p>
+      <!-- CORPO DA TABELA -->
+      <table class="table">
+    
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">ID FUNDO</th>
+            <th scope="col">NOME</th>
+            <th scope="col">CNPJ</th>
+            <th scope="col">INVESTIMENTO</th>
+            <th scope="col">VER MAIS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>ABSOLUTE HEDGE FIC FIM</td>
+            <td>18860059000115</td>
+            <td>5000.0</td>
+            <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              +
+            </button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>ALASKA BLACK INSTITUCIONAL FIA</td>
+            <td>2667355600132</td>
+            <td>1000.0</td>
+            <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              +
+            </button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>ARK INCOME FIA</td>
+            <td>03168062000103</td>
+            <td>500.0</td>
+            <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              +
+            </button></td>
+          </tr>
+        </tbody>
+      </table>
+ 
+          
+    </div>   
+
+
+  <!-- CONCEITOS  -->
+
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">CONHEÇA SOBRE INVESTIMENTO</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/bars.png" alt="">
+            <h5>O que é?</h5>
+            <p class="font-weight-light mb-0">Um fundo de investimento é um condomínio que reúne recursos de um conjunto de investidores, 
+              com o objetivo de obter ganhos financeiros a partir da aquisição de uma carteira de ativos, como ações, debêntures, opções, 
+              entre outros.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/money.png" alt="">
+            <h5>Vantagens</h5>
+            <p class="font-weight-light mb-0">Oportunidade de diversificar os investimentos;
+
+              Gestão realizada por profissionais qualificados;
+              
+              Despesas reduzidas, divididas com outros integrantes do fundo;
+              
+              Chance de investir em vários tipos de ativos, como ações e/ou renda fixa, em apenas uma aplicação.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/correct.png" >
+            <h5>Aplicação e Resgate</h5>
+            <p class="font-weight-light mb-0">O prazo de resgate está diretamente relacionado à liquidez, que basicamente é quando você resgata o seu dinheiro investido sem obter prejuízo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     
+</body>
+
+</html>
